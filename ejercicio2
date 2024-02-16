@@ -1,0 +1,7 @@
+# Escribir una función que calcule el área de un círculo dado su radio.
+import math
+radio= int(input("por favor ingrese el radio del círculo:"))
+unidad_medida= input("¿En qué unidad desea calcular el radio? ¿m,cm,mm o cuál?")
+area= (math.pi) * (radio**2)
+
+print("El area de su circulo es:",area, unidad_medida, 2)

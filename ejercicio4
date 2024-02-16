@@ -1,0 +1,9 @@
+#Escribir un programa que determine si un número dado es par o impar.
+def par_impar(num):
+    if num % 2 ==0:
+         return "par"
+    else:
+        return "impar"
+num = int(input("Ingrese su numero:"))
+resultado = par_impar(num)
+print("su número es:", resultado)

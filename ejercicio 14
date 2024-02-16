@@ -1,0 +1,11 @@
+#Escribir una función que calcule la media aritmética de una lista de números.
+
+def calcular_promedio(lista):
+    suma = sum(lista)
+    promedio = suma / len(lista)
+    return promedio
+
+
+numeros = [2.5, 7.6, 4.8, 6.0, 9]
+promedio_numeros = calcular_promedio(numeros)
+print("La media aritmética de la lista de números es:", promedio_numeros)

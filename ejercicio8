@@ -1,0 +1,9 @@
+#Crear una función que invierta el orden de los elementos en una lista dada.
+
+lalista = [5, 4, 3, 2 ,1, 0]
+
+def invertir(lista):
+    return lista[::-1]
+resultado = invertir(lalista)
+
+print ("La lista invertida queda así:", resultado)
