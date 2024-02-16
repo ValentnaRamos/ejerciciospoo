@@ -1,0 +1,12 @@
+#Crear un programa que calcule la suma de los números en una lista dada.
+
+def suma_numeros(num):
+   suma = 0
+   for numero in num:
+      suma += numero
+   return suma
+lista = [8, 1, 7, 14, 21]
+
+resultado = suma_numeros(lista)
+
+print("la suma de los números dados es:", resultado)
